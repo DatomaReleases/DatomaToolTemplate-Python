@@ -26,15 +26,19 @@ tasks:
     autoscaling:
       default:
         vcpu:
-          base: 2
+          base: 1
           multipliers:
-            file_size:
-              - value: 2048
+            num_files:
+              - value: 1
                 inputs:
-                  - in_file
+                  - input_file
           max: 64
 
         ram:
           base: 0
           multipliers: 
-            vcpu: 3750
+            file_size:
+              - value: 500
+                inputs:
+                  - input_file
+            vcpu: 1900
