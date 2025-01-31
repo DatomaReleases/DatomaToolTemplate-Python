@@ -7,7 +7,7 @@ If forking this template, feel free to change your new repository's name to matc
 [**.gitignore**](/.gitignore): No need to modify this file, it will keep the project clean of unnecessary files.
 
 [**datomaconfig.yml**](/datomaconfig.yml): You only need to modify the [`taskname`](/datomaconfig.yml#L16) parameter to suit your project. 
-- It will be appreciated if you delete one of the possible architectures, depending on your project needs ([keep only x86 or arm64](/datomaconfig.yml#L3C3-L12C14)).
+- Choose one of the possible architectures, depending on your project needs ([keep only x86 or arm64](/datomaconfig.yml#L3C3-L12C14), if unsure, keep x86) and delete the other.
 - If your main python script has a name different than **"script.py"**, change [line **19**](/datomaconfig.yml#L19) accordingly.
 - If the folder where your code outputs the results file is not named "**results**", change [line **20**](/datomaconfig.yml#L20) accordingly.
 - Keep in mind that the [in_file](/datomaconfig.yml#L25) parameter will be used later.
