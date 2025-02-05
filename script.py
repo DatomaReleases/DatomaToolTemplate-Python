@@ -1,7 +1,7 @@
 import networkx as nx
 
 def datoma_entrypoint(params, utils):
-    filename = 'results/A1_a.csv'   # Create the output file on the results folder
+    filename = '/app/results/A1_a.csv'   # Create the output file on the results folder
     f = open(filename, "w")
     f.write("Filename\tNumber of nodes\tNumber of edges\tMin degree\tMax degree\tAvg degree\tAvg clustering coefficient\tAssortativity\tAvg path length\tDiameter\n")
 

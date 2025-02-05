@@ -16,8 +16,8 @@ tasks:
   taskname:
     type: Python
     config:
-      script: script.py
-      output_folder: results
+      script: /app/script.py
+      output_folder: /app/results
       upload_output_folder: true
       upload_output_zip: false
       zip_filename: testResults
