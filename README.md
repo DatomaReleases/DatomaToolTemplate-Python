@@ -1,4 +1,4 @@
-# Datoma Python-based tool template
+# Datoma's Python-based tool template
 This document will guide you to migrate your Python tool to Datoma.
 
 If forking this template, feel free to change your new repository's name to match your project's name.
