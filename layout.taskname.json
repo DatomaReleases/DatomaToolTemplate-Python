@@ -24,7 +24,7 @@
       "key": "input_file",
       "label": "Input File",
       "model": [],
-      "shownExtensions": [".mgf"],
+      "shownExtensions": [".net"],
       "maxFiles": 1
     }
   ]
